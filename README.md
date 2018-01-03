@@ -22,12 +22,31 @@ TODO (include links to download pages)
 
 # Config files in this repo
 
+## AutoHotkey
+
+[AutoHotkey](https://autohotkey.com/) is a free and open source tool for Windows
+used to define hotkeys for the mouse and keyboard,
+remap keys or buttons and autocorrect-like replacements.
+
+NOTE: to identify the codes of keys being pressed, use
+[Keyboard Message Viewer](http://www.cgl.ucsf.edu/home/tef/wintools/keyview.exe).
+
+To make the hotkeys run at startup, compile the script
+(right-click in Windows Explorer -> Compile Script),
+and place the generated .exe file in your starup folder
+(you can find it by running `shell:startup`
+(Windows key + R, type in `shell:startup`), and hit enter.
+
+
 ### MediaKeys - for AlienwareTactX.ahk
 Use the Alienware 15R3 customizable keys as media keys:
 - 1: previous track
 - 2: play/pause
 - 3: next track
 
+### Dragon-media-keys.ahk
+Use the Function keys F6-F11 on a MSi GS63VR 7RG as media keys.
+See the file for details.
 
 # git
 
