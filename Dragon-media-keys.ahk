@@ -12,3 +12,7 @@ F8::Send  {Volume_Up}
 F9::Send  {Media_Prev}
 F10::Send  {Media_Play_Pause}
 F11::Send  {Media_Next}
+
+; add home and end keys
+F4::Send  {Home}
+F5::Send  {End}
