@@ -45,7 +45,7 @@ Use the Alienware 15R3 customizable keys as media keys:
 - 3: next track
 
 ### Dragon-media-keys.ahk
-Use the Function keys F6-F11 on a MSi GS63VR 7RG as media keys.
+Use the Function keys F5-F12 on a MSi GS63VR 7RG as media keys and Home + End keys.
 See the file for details.
 
 # git
