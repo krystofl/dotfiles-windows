@@ -6,6 +6,7 @@ config files for Windows PCs
 TODO:
 - Disable win 10 silent app installs: https://github.com/WinPEGuy/OSConfig/blob/master/OSConfig%20Samples/Settings/Windows%2010/(w10)%20Content%20Delivery%20Manager%20-%20PreInstalledAppsEnabled%20-%20No.reg
 - disable "Microsoft Windows 10 Compatibility Telemetry"
+- enable paths longer than 260 characters: https://www.howtogeek.com/266621/how-to-make-windows-10-accept-file-paths-over-260-characters/
 
 
 # Software to install
