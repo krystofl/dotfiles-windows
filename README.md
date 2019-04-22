@@ -3,10 +3,19 @@ config files for Windows PCs
 
 # Windows 10 Settings to Change
 
-TODO:
-- Disable win 10 silent app installs: https://github.com/WinPEGuy/OSConfig/blob/master/OSConfig%20Samples/Settings/Windows%2010/(w10)%20Content%20Delivery%20Manager%20-%20PreInstalledAppsEnabled%20-%20No.reg
+- Disable win 10 silent app installs:
+  - open Registry editor (run `regedit`)
+  - go to `HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager` and set `SilentInstalledAppsEnabled` (32-bit DWORD) to `0`
+  - manually uninstall all of the stupid apps that Windows had already installed
+  - [source](https://winaero.com/blog/a-tweak-to-turn-off-automatically-installing-suggested-apps-in-windows-10/)
 - disable "Microsoft Windows 10 Compatibility Telemetry"
-- enable paths longer than 260 characters: https://www.howtogeek.com/266621/how-to-make-windows-10-accept-file-paths-over-260-characters/
+  - open Group Policy Editor (run `gpedit.msc`)
+  - Computer Configuration >  Administrative Templates > Windows Components > Data Collection and Preview Builds > Allow Telemetry: set to `Disabled`
+  - [source](https://www.easeus.com/partition-manager-software/fix-windows-10-microsoft-compatibility-telemetry-high-disk-usage.html)
+- enable paths longer than 260 characters:
+  - open Group Policy Editor (run `gpedit.msc`)
+  - Computer Configuration > Administrative Templates > System > Filesystem > `Enable Win32 long paths`: set to `Enabled`
+  - [source](https://www.howtogeek.com/266621/how-to-make-windows-10-accept-file-paths-over-260-characters/)
 
 
 # Software to install
